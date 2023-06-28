@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Groceries-Hub Best Online</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="./css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
         .logoimg{
@@ -20,13 +21,13 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="./images/logo.png" class="logoimg" alt="my groceries">
+            <img src="./images/bg-1.jpg" class="logoimg" alt="my groceries">
         </div>
         <ul>
-            <li class="item"><a href="">HOME</a></li>
-            <li class="item"><a href="">SERVICES</a></li>
-            <li class="item"><a href="">CONTACT-US</a></li>
-            <li class="item"><a href="">ABOUT-US</a></li>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#services">SERVICES</a></li>
+            <li class="item"><a href="#contact">CONTACT-US</a></li>
+            <li class="item"><a href="#clients-section">clients-section</a></li>
         </ul>
     </nav>
     <section id="home">
@@ -34,7 +35,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptate aliquam iste distinctio tenetur ipsum.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
         <button class="btn" type="submit">Order-Now</button>
-    </section>
+    </section> 
 
     <section class="services-container">
         <h1 class="h-primary center">Our Services</h1>
@@ -42,20 +43,20 @@
             <div class="box">
                 <img src="./images/bg-2.jpg" alt="">
                 <h2 class="h-secondary center">food ordering</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ducimus, cum nesciunt sint optio quo delectus. Sunt reiciendis voluptate repudiandae! Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
             </div>
             <div class="box">
                 <img src="./images/bg-2.jpg" alt="">
                 <h2 class="h-secondary center">food ordering</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellat esse sit voluptate voluptas repudiandae. Explicabo eius ea laboriosam ipsam? Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
             </div>
             <div class="box">
                 <img src="./images/bg-2.jpg" alt="">
                 <h2 class="h-secondary center">food ordering</h2>
-                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.lorem20 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, fuga et dolore magnam culpa nulla ex autem. Eaque, quaerat deleniti! Officiis odit voluptatum ratione quibusdam aperiam quasi a, laborum in, ipsum veniam illo, labore earum.</p>
             </div>
         </div>
-    </section>
+    </section> 
     <section id="clients-section">
         <h1 class="h-primary center">our client </h1>
         <div id="clients">
@@ -72,7 +73,7 @@
                 <img src="./images/bg-1.jpg" alt="our client">
             </div>
         </div>
-    </section>
+    </section> 
 
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
@@ -82,8 +83,26 @@
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name" placeholder="enter your name">
                 </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number:</label>
+                    <input type="phone" name="phone" id="phone" placeholder="enter your phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="type a message here"></textarea>
+                </div>
             </form>
         </div>
-    </section>
+    </section> 
+
+    <footer >
+        <div class="center">
+            Copyright &copy; www.groceries-hub.com All right Reserve
+        </div>
+    </footer>
 </body>
 </html>
